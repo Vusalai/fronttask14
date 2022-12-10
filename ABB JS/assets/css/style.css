@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.l1{
+    background-color: #F6F7F8;
+    display: flex;
+    padding: 17px;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu2{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: none;
+}
+.menu a:hover{
+    text-decoration:underline ;
+    transition: 1s;
+}
+#menu{
+    font-size: 25px;
+    color: black;
+    display: none;
+    margin-left: 29rem;
+}
+
+.menu a{
+    font-size: 15px;
+    color: #666;
+    margin-right: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 300;
+}
+.menu a:nth-child(7){
+    font-size: 14px;
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 6px 12px;
+    margin-right: 1.5rem;
+}
+.menu a:nth-child(7):hover{
+    background-color: #0056c1;
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+.icon i{
+    color: #666666;
+}
+.options{
+    margin: 0 1rem;
+}
+.icon a{
+    color: #666666;
+    font-size: 11px;
+}
+.l2{
+    border: 1px solid #f6f7f8;
+    padding: 16px 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu2 a{
+    margin: 0 1rem;
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu2 a:nth-child(1){
+    color: black;
+}
+.menu2 span{
+    color: #666666;
+    font-size: 17px;
+    font-weight: bold;
+}
+.menu2 a:hover{
+    color: black;
+    transition: 2s;
+}
+.icon2 i{
+    font-size: 23px;
+    color: #0056c1;
+}
+.icon2 a{
+    font-size: 19px;
+    color: #0056c1;
+    font-weight: bold;
+}
+#menu3{
+    background-color: #F6F7F8;
+}
+#menu3 input{
+    font-size: 60px;
+    font-weight: 600;
+    background-color: #F6F7F8;
+    border: none;
+    margin-left: 5rem;
+}
+#menu3 ::placeholder{
+    color:#666666;
+}
+.active{
+    display: none;
+}
+.l3{
+    border: 1px solid #F6F7F8;
+    padding: 30px 2rem;
+    display: flex;
+    align-items: center;
+}
+.l3 a{
+    color: #17253a;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+@media(max-width:576px){
+    #menu{
+        display:block;
+    }
+    #menu2{
+        display: block;
+    }
+    .l1 a{
+        display: none;
+    }
+    .menu2 a{
+        display: none;
+    }
+    .menu2 span{
+        display: none;
+    }
+    .icon2 i{
+        display: none;
+    }
+    .icon2 a{
+        display: none;
+    }
+    .l3 a{
+        display: none;
+    }
+}
